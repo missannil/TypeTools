@@ -14,3 +14,5 @@ export { Promise } from './Promise';
 export { Try } from './Try';
 export { Type } from './Type';
 export { x } from './x';
+export { IfEquals } from './IfEquals';
+
