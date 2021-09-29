@@ -1,7 +1,7 @@
 import { Key } from './Key';
 import { List } from '../List/List';
 /**
- * Get in `O` the type of a field of key `K`
+ * Get in `O` the type of a field of key `K` 获取O中K字段的类型值
  * @param O to extract from
  * @param K to extract at
  * @returns [[Any]]
