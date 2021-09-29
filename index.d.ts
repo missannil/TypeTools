@@ -1,5 +1,5 @@
 /** @ignore */ /** */
-
+import * as Test from './Test';
 import * as A from './Any/_api';
 import * as B from './Boolean/_api';
 import * as C from './Class/_api';
@@ -25,4 +25,4 @@ import * as String from './String/_api';
 import * as Tuple from './List/_api';
 import * as List from './List/_api';
 import * as Union from './Union/_api';
-export {  A, Any, B, Boolean, C, Class, Community, F, Function, I, Iteration, L, List, M, Misc, N, Number, O, Object, S, String, T, Tuple, U, Union, };
+export { Test, A, Any, B, Boolean, C, Class, Community, F, Function, I, Iteration, L, List, M, Misc, N, Number, O, Object, S, String, T, Tuple, U, Union, };

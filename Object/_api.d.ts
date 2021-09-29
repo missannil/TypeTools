@@ -51,3 +51,4 @@ export { UnionOf } from './UnionOf';
 export { Update } from './Update';
 export { Writable } from './Writable';
 export { WritableKeys } from './WritableKeys';
+export { ReturnType } from './ReturnType';
