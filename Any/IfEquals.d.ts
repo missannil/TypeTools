@@ -20,11 +20,7 @@ import { Equals } from "./Equals";
  * ```
  */
 export declare type IfEquals<T, TCompare, Then = unknown, Else = T> = [TCompare] extends [never]
-    ? Equals<T, never> extends 1
-        ? Then
-        : Else
+    ? [T] extends [never] ? Then : Else
     : unknown extends (TCompare extends unknown ? (Equals<T, TCompare> extends 1 ? unknown : "无所谓") : never)
     ? Then
     : Else;
-
-  
