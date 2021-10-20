@@ -1,3 +1,4 @@
+
 import { Equals } from "./Equals";
 /**
  * T 若与 TCompare 类型相同  返回Then 否则返回Else
@@ -21,6 +22,6 @@ import { Equals } from "./Equals";
  */
 export declare type IfEquals<T, TCompare, Then = unknown, Else = T> = [TCompare] extends [never]
     ? [T] extends [never] ? Then : Else
-    : unknown extends (TCompare extends unknown ? (Equals<T, TCompare> extends 1 ? unknown : "无所谓") : never)
+    : unknown extends (TCompare extends unknown ? (Equals<NonNullable<T>, TCompare> extends 1 ? unknown : "无所谓") : never)
     ? Then
     : Else;
