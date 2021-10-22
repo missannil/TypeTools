@@ -15,3 +15,4 @@ export { Select } from './Select';
 export { Strict } from './Strict';
 export { ListOf } from './ListOf';
 export {Keys} from './Keys'
+export {SamePrimitive} from './SamePrimitive'

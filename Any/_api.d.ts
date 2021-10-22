@@ -15,4 +15,5 @@ export { Try } from './Try';
 export { Type } from './Type';
 export { x } from './x';
 export { IfEquals } from './IfEquals';
-export { Impossible} from './Impossible'
+export { Impossible } from './Impossible'
+export { LiteralTop } from './LiteralTop'
